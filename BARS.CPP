@@ -6,7 +6,7 @@
 void main()
 {
 int gdriver=DETECT,gmode;
-initgrapgh(&gdriver,gmode,"C:\\TURBOC3\\BGI");
+initgraph(&gdriver,&gmode,"C:\\TURBOC3\\BGI");
 
 line(100,420,100,60);
 line(100,420,500,420);

@@ -87,16 +87,19 @@ switch(c)
 case 1:	printf("enter the transation factors");
 	scanf("%d%d",&xt,&yt);
 	translation(x1,y1,x2,y2,x3,y3,xt,yt);
+		break;
 	getch();
 
 case 2:	printf("enter the angle of rotation");
 	scanf("%d",&r);
 	rotation(x1,y1,x2,y2,x3,y3,r);
+		break;
 	getch();
 
 case 3:	printf("enter the scaling factors");
 	scanf("%d%d",&sx,&sy);
 	scaling(x1,y1,x2,y2,x3,y3,sx,sy);
+		break;
 	getch();
 
 case 4:	break;

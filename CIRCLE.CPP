@@ -1,21 +1,15 @@
 #include<conio.h>
 #include<stdio.h>
 #include<graphics.h>
+
 int main()
 {
-	int gd=DETECT,gm;
-	 int x,y,r;
+int gdriver=DETECT,gmode;
+initgraph(&gdriver,&gmode,"C:\\TURBOC3\\BGI");
 
-	initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
+circle(250,200,100);
+getch();
+closegraph();
 
-	printf("entre the coodinate of circle :");
-	scanf("%d %d",&x,&y);
-	printf("enter the radius of the circle: ");
-	scanf("%d",&r);
-	circle(x,y,r);
-
-	getch();
-	closegraph();
-    return 0;
-    }
-
+return 0;
+}

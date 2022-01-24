@@ -120,7 +120,12 @@ while(!kbhit())
 		}
 		else
 		{
-			sprintf(str,5
+			sprintf(str,5)
+		}
+	}
+}
+
+}
 
 
 
